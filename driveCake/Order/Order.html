@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drive Cake</title>
+	<link rel="stylesheet" href="styles/Order.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script>
+$(document).ready(function(){
+  	$('.bg-slider').slick({
+      	slidesToScroll: 1,
+  		autoplay: true,
+  		autoplaySpeed: 5000,
+  		arrows: false,
+  		draggable: false,
+  		pauseOnHover: false,
+  		accessibility: false,
+  	});
+});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<button class="burger"><img src="../media/icons/burger.svg" alt=""></button>
+			<img src="../media/logo/logo-text.svg" alt="" class="logo">
+			<img src="../media/logo/logo.svg" class="mobile-logo" alt="">
+			<div class="mobile-nav">
+				<p class="mobile-nav-item">Головна</p>
+				<a href="../Cakes-gallery/Cakes-gallery.html" class="mobile-nav-item">Торти</a>
+				<a href="#" class="mobile-nav-item">Замовлення</a>
+				<a href="../About-us/About-us.html" class="mobile-nav-item">Про нас</a>
+				<img src="../media/icons/close.svg" class="close-nav-menu" alt="">
+			</div>
+			<nav>
+				<a href="../Main/Main.html" class="nav-button1">Головна</a>
+				<a href="../Cakes-gallery/Cakes-gallery.html" class="nav-button2">Торти</a>
+				<p href="#" class="nav-button3">Замовити</p>
+				<a href="../About-us/About-us.html" class="nav-button4">Про нас</a>
+			</nav>
+		</header>
+		<main>
+			<div class="bg-slider">
+				<img src="../media/background/Order-slider1.jpg" alt="">
+				<img src="../media/background/Order-slider2.jpg" alt="">
+				<img src="../media/background/Order-slider3.jpg" alt="">
+			</div>
+			<p class="main-text headline">Зробити замовлення</p>
+			<p class="main-text">Для того, щоб замовити торт просто скористайтесь формою</p>
+			<a href="https://forms.gle/cDpSjcyHiMvVWs3U6" target="_blank" class="make-order">Форма замовлення</a>
+			<hr noshade class="line1" color="#ffffff" size="2" width="60%">
+			<p class="mobile-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis</p>
+			<hr noshade class="line2" color="#ffffff" size="2" width="60%">
+			<div class="icons-bar">
+				<a href="#"><img src="../media/icons/telegram-white.svg" class="telegram icon" alt=""></a>
+				<a href="#"><img src="../media/icons/facebook-white.svg" class="facebook icon" alt=""></a>
+				<a href="#"><img src="../media/icons/instagram-white.svg" class="instagram icon" alt=""></a>
+			</div>
+		</main>
+		<footer>
+			<img src="../media/logo/logo.svg" class="footer-logo" alt="">
+			<div class="location">
+				<p class="location1">Місцезнаходження</p>
+				<p class="adress">Вінниця, вулиця Ватутіна 34а</p>
+			</div>
+			<div class="contact-info">
+				<p class="contact-info1">Контактна інформація</p>
+				<p class="phone-number">+38 (098) 991-14911 Кирил</p>
+			</div>
+			<div class="footer-nav">
+				<a href="#" class="footer-order">Зробити замовлення</a>
+				<a href="#" class="footer-about-us">Про нас</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

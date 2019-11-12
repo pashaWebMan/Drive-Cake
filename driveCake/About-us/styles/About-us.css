@@ -1,0 +1,344 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.9px;
+}
+:hover {
+	transition: ease-in-out .3s;
+}
+:focus {
+	outline: none;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #4F2C28;
+}
+.wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+header {
+	width: 100%;
+	height: 18%;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	height: 80%;
+	position: relative;
+	left: 5%;
+}
+.mobile-logo {
+	display: none;
+}
+.burger {
+	display: none;
+}
+.mobile-nav {
+	display: none;
+}
+nav {
+	display: flex;
+	position: relative;
+	right: -30%;
+}
+nav a, nav p{
+	margin-right: 6vw;
+	font-size: 1.4vw;
+}
+nav p {
+	font-weight: 500;
+	color: #4F2C28;
+}
+nav a {
+	opacity: 0.65;
+}
+nav a:hover {
+	opacity: 1;
+}
+.nav-button4 {
+	margin-right: 0;
+}
+.bold {
+	font-weight: 500;
+	font-size: 1.92vw;
+}
+main {
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: #4F2C28;
+}
+.page-name {
+	font-size: 2.3vw;
+	position: relative;
+	bottom: 5%;
+}
+h1, .main-text{
+	margin: 0px auto;
+}
+.line {
+	position: relative;
+	bottom: 13%;
+}
+.content {
+	display: flex;
+	margin: 0 auto;
+	width: 72%;
+	justify-content: space-between;
+	position: relative;
+	bottom: 15%;
+	right: 2%;
+}
+.shop-description {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.25vw;
+}
+.shop-description p {
+	font-weight: 500;
+	text-align: center;
+}
+.shop-description-text-mobile {
+	display: none;
+}
+.mobile-line {
+	display: none;
+}
+.cook-description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cook-text-mobile {
+	display: none;
+}
+.about-cook {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+	font-size: 1.7vw;
+	margin-top: 0;
+	margin-bottom: 5%;
+}
+h3 {
+	font-size: 1.35vw;
+}
+.cook-photo {
+	margin-right: 2.4vw;
+	height: 30vh;
+}
+.cook-info {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	bottom: 5%;
+}
+.cook-info p {
+	width: 15.2vw;
+	font-size: 1.2vw;
+	line-height: 1.7vw;
+}
+.icons-bar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 4.23vw;
+	height: 23vw;
+	position: absolute;
+	right: 4%;
+}
+.icons-bar img:not(.telegram) {
+	height: 3.9vw;
+}
+
+.telegram {
+	height: 3.4vw;
+}
+footer {
+	font-size: 1.22vw;
+	height: 12%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #4F2C28;
+}
+.footer-logo {
+	height: 85%;
+}
+footer div p:nth-child(1) {
+	font-weight: 500;
+}
+footer div {
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+@media screen and (max-width: 600px) {
+	.logo, nav, .location, .footer-nav, .line, h1 {
+		display: none !important;
+	}
+	main {
+		align-items: center;
+		flex-direction: column;
+	}
+	.mobile-logo {
+		display: block;
+		height: 100px;
+		margin: 0 auto;
+	}
+	.burger {
+		background: none;
+		border: none;
+		display: block;
+		position: absolute;
+		margin-left: 5%;
+	}
+	.burger:focus ~ .mobile-nav{
+		top: 0%;
+	}
+	.mobile-nav {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: -44%;
+		height: 44%;
+		width: 100%;
+		z-index: 999;
+		font-size: 20px;
+		background-color: #ffffff;
+		color: #4F2C28;
+	}
+	.mobile-nav-item:nth-child(4) {
+		font-weight: 500;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.mobile-nav-item {
+		position: relative;
+		top: 12%;
+		left: 10%;
+		padding: 4% 10% 4% 0
+	}
+	.close-nav-menu {
+		position: relative;
+		right: -38%;
+		bottom: -8%;
+	}
+	.close-nav-menu:focus ~ .mobile-nav {
+		top: -44%;
+	}
+	.page-name {
+		margin-bottom: 7%;
+		font-size: 24px;
+		font-weight: 500;
+	}
+	.content {
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		bottom: 0;
+		right: 0;
+	}
+	.shop-description {
+		width: 80%;
+	}
+	.shop-description-text {
+		display: none;
+	}
+	.shop-description-text-mobile {
+		display: block;
+		font-size: 14px;
+	}
+	h2 {
+		margin-bottom: 3.5%;
+		font-size: 22px;
+	}
+	.mobile-line {
+		display: block;
+		margin: 5% 0;
+	}
+	.cook-description {
+		width: 80%;
+	}
+	h3 {
+		margin-top: 0;
+		margin-bottom: 6%;
+		font-size: 4.35vw;
+		font-weight: 500;
+	}
+	.about-cook {
+		width: 100%;
+	}
+	.cook-photo {
+		height: 35.5vw;
+		margin-right: 5%;
+	}
+	.cook-info {
+		align-items: center;
+	}
+	.cook-info p {
+		text-align: center;
+		width: 37.2vw;
+		font-size: 4vw;
+		line-height: 4.7vw;
+	}
+	.cook-text {
+		display: none;
+	}
+	.cook-text-mobile {
+		display: block;
+	}
+	.icons-bar {
+		flex-direction: row;
+		height: 50px;
+		width: 80%;
+		position: relative;
+		right: 0;
+	}
+	.icons-bar img:not(.telegram) {
+		height: 10.9vw;
+	}
+	.telegram {
+		height: 10.4vw;
+	}
+	footer {
+		height: 12%;
+	}
+	.footer-logo {
+		height: 70%;
+	}
+	.contact-info {
+		height: 60%;
+		font-size: 18px;
+	}
+}
+@media screen and (min-height: 670px) and (max-width: 1000px){
+	
+	.shop-description-text-mobile {
+		font-size: 16px;
+	}
+	.cook-text-mobile {
+		font-size: 16px;
+	}
+}

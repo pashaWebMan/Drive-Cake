@@ -1,0 +1,282 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.9px;
+}
+:hover {
+	transition: ease-in-out .3s;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #4F2C28;
+}
+.wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+header {
+	width: 100%;
+	height: 18%;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	height: 80%;
+	position: relative;
+	left: 5%;
+}
+.mobile-logo {
+	display: none;
+}
+.burger {
+	display: none;
+}
+.mobile-nav {
+	display: none;
+}
+nav {
+	display: flex;
+	position: relative;
+	right: -30%;
+}
+nav a, nav p{
+	margin-right: 6vw;
+	font-size: 1.37vw;
+}
+nav p {
+	font-weight: 500;
+	color: #4F2C28;
+}
+nav a {
+	opacity: 0.65;
+}
+nav a:hover {
+	opacity: 1;
+}
+.nav-button4 {
+	margin-right: 0;
+}
+main {
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #ffffff;
+}
+main p, main a{
+	position: relative;
+	bottom: 47%;
+	font-size: 1.8vw;
+	margin-left: 6.5%;
+}
+.main-text:nth-child(2) {
+	margin-bottom: 0.9vw;
+}
+.bold {
+	font-weight: 500;
+	font-size: 1.92vw;
+}
+.make-order {
+	font-size: 1.2vw;
+	font-weight: 500;
+	padding: 1.3vw 1.6vw;
+	margin-top: 2.5vw;
+	background-color: #ffffff;
+	width: 13.4vw;
+	border-radius: 9px;
+}
+.make-order:hover {
+	color: #ffffff;
+	background-color: #4F2C28;
+}
+.mobile-text {
+	display: none;
+}
+.icons-bar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 4.23vw;
+	height: 23vw;
+	position: absolute;
+	right: 4%;
+	top: 50%;
+}
+.icons-bar img:not(.telegram) {
+	height: 3.9vw;
+}
+.telegram {
+	height: 3.4vw;
+}
+footer {
+	font-size: 1.22vw;
+	height: 12%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #4F2C28;
+}
+.footer-logo {
+	height: 80%;
+}
+footer div p:nth-child(1) {
+	font-weight: 500;
+}
+footer div {
+	height: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+	.logo, nav, .location, .footer-nav, .bg-slider {
+		display: none !important;
+	}
+	main {
+		background: url(../../media/background/Main-mobile.jpg);
+		align-items: center;
+	}
+	main a, main p{
+		margin-left: 0;
+		bottom: 0;
+	}
+	.mobile-logo {
+		display: block;
+		height: 100px;
+		margin: 0 auto;
+	}
+	.burger {
+		background: none;
+		border: none;
+		display: block;
+		position: absolute;
+		margin-left: 5%;
+	}
+	.burger:focus ~ .mobile-nav{
+		top: 0%;
+	}
+	.mobile-nav {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: -44%;
+		height: 44%;
+		width: 100%;
+		z-index: 999;
+		font-size: 20px;
+		background-color: #ffffff;
+		color: #4F2C28;
+	}
+	.mobile-nav-item:nth-child(1) {
+		font-weight: 500;
+		padding-top: 0;
+		padding-bottom: 5%;
+	}
+	.bold {
+		font-size: 8vw;
+	}
+	.mobile-nav-item {
+		position: relative;
+		top: 12%;
+		left: 10%;
+		padding: 4% 10% 4% 0
+	}
+	.close-nav-menu {
+		position: relative;
+		right: -38%;
+		bottom: -8%;
+	}
+	.close-nav-menu:focus ~ .mobile-nav {
+		top: -44%;
+	}
+	.main-text {
+		position: relative;
+		top: 0%;
+	}
+	.main-text:nth-child(3) {
+		font-size: 3.8vw;
+		margin-top: 8px;
+	}
+	.main-text:nth-child(2) {
+		font-size: 7.8vw;
+	}
+	.main-text, .make-order {
+		top: -12%;
+	}
+	.make-order {
+		position: relative;
+		margin-top: 25px;
+		width: 46.4vw;
+		padding: 17px 18%;
+		font-size: 4.2vw;
+	}
+	hr {
+		margin: 0;
+	}
+	.line1 {
+		position: relative;
+		bottom: 6%;
+	}
+	.line2 {
+		position: relative;
+		top: 5%;
+	}
+	.mobile-text {
+		display: block;
+		font-size: 4.2vw;
+		text-align: center;
+		width: 80%
+	}
+	.icons-bar {
+		flex-direction: row;
+		height: 11vw;
+		width: 80%;
+		position: relative;
+		right: 0;
+		top: 11%;
+	}
+	.icons-bar img:not(.telegram) {
+		height: 10.9vw;
+	}
+	.telegram {
+		height: 10.4vw;
+	}
+	footer {
+		height: 12%;
+	}
+	.footer-logo {
+		height: 70%;
+	}
+	.contact-info {
+		height: 60%;
+		font-size: 4.5vw;
+	}
+}
+@media screen and (max-height: 670px) and (max-width: 1000px){
+	.main-text:nth-child(2) {
+		font-size: 28px;
+	}
+	.main-text:nth-child(3) {
+		font-size: 14px;
+	}
+	.mobile-text {
+		font-size: 15px;
+	}
+	.contact-info {
+		font-size: 4.5vw;
+	}
+}
