@@ -334,7 +334,9 @@ footer div {
 	}
 }
 @media screen and (max-height: 670px) and (max-width: 1000px){
-	
+	.mobile-nav {
+		font-size: 4.6vw;
+	}
 	.shop-description-text-mobile {
 		font-size: 3.5vw;
 	}

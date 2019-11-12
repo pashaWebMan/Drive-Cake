@@ -269,6 +269,9 @@ footer div {
 	}
 }
 @media screen and (max-height: 670px) and (max-width: 1000px){
+	.mobile-nav {
+		font-size: 4.6vw;
+	}
 	.icons-bar img:not(.telegram) {
 		height: 9.9vw;
 	}
