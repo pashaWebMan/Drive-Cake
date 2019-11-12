@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drive Cake</title>
+	<link rel="stylesheet" href="styles/Cakes-gallery.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="scripts/Cakes-gallery.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<button class="burger"><img src="../media/icons/burger.svg" alt=""></button>
+			<img src="../media/logo/logo-text.svg" alt="" class="logo">
+			<img src="../media/logo/logo.svg" class="mobile-logo" alt="">
+			<div class="mobile-nav">
+				<a href="../Main/Main.html" class="mobile-nav-item">Головна</a>
+				<p class="mobile-nav-item">Торти</p>
+				<a href="#" class="mobile-nav-item">Замовлення</a>
+				<a href="../About-us/About-us.html" class="mobile-nav-item">Про нас</a>
+				<img src="../media/icons/close.svg" class="close-nav-menu" alt="">
+			</div>
+			<nav>
+				<a href="../index.html" class="nav-button1 active">Головна</a>
+				<p class="nav-button2">Торти</p>
+				<a href="../Order/Order.html" class="nav-button3">Замовити</a>
+				<a href="../About-us/About-us.html" class="nav-button4">Про нас</a>
+			</nav>
+		</header>
+		<main>
+			<h1 class="page-name">Галерея тортів</h1>
+			<p class="main-text">Наш магазин спеціалізується на виготовленні тортів найвищої якості. До кожного замовлення та клієнта ми підбираємо особистий підхід. Ми розуміємо, що коли до рук майстра потраплять інгредієнти найвищої якості, то на світ народиться смакота. Тож нижче ви можете побачити готові роботи нашого кухаря.</p>
+			<div class="slider">
+				<img src="../media/Cakes/cake1.jpg" alt="" class="slider-item"  onclick="openPopUpMenu()">
+				<img src="../media/Cakes/cake2.jpg" alt="" class="slider-item"  onclick="openPopUpMenu1()">
+				<img src="../media/Cakes/cake3.jpg" alt="" class="slider-item"  onclick="openPopUpMenu2()">
+				<img src="../media/Cakes/cake4.jpg" alt="" class="slider-item"  onclick="openPopUpMenu3()">
+				<img src="../media/Cakes/cake5.jpg" alt="" class="slider-item"  onclick="openPopUpMenu4()">
+			</div>
+			<div class="popUpMenu" onclick="closePopUpMenu()">
+				<img src="../media/Cakes/cake1-big.jpg" alt="">
+			</div>
+			<div class="popUpMenu" onclick="closePopUpMenu1()">
+				<img src="../media/Cakes/cake2-big.jpg" alt="" >
+			</div>
+			<div class="popUpMenu" onclick="closePopUpMenu2()">
+				<img src="../media/Cakes/cake3-big.jpg" alt="">
+			</div>
+			<div class="popUpMenu" onclick="closePopUpMenu3()">
+				<img src="../media/Cakes/cake4-big.jpg" alt="">
+			</div>
+			<div class="popUpMenu" onclick="closePopUpMenu4()">
+				<img src="../media/Cakes/cake5-big.jpg" alt="">
+			</div>
+			<div class="icons-bar">
+				<a href="#"><img src="../media/icons/telegram-dark.svg" class="telegram" alt=""></a>
+				<a href="#"><img src="../media/icons/facebook-dark.svg" class="facebook" alt=""></a>
+				<a href="#"><img src="../media/icons/instagram-dark.svg" class="instagram" alt=""></a>
+			</div>
+		</main>
+		<footer>
+			<img src="../media/logo/logo.svg" class="footer-logo" alt="">
+			<div class="location">
+				<p class="location1">Місцезнаходження</p>
+				<p class="adress">Вінниця, вулиця Ватутіна 34а</p>
+			</div>
+			<div class="contact-info">
+				<p class="contact-info1">Контактна інформація</p>
+				<p class="phone-number">+38 (098) 991-14911 Кирил</p>
+			</div>
+			<div class="footer-nav">
+				<a href="#" class="footer-order">Зробити замовлення</a>
+				<a href="#" class="footer-about-us">Про нас</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
