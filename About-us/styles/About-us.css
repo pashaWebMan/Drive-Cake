@@ -333,7 +333,7 @@ footer div {
 		font-size: 18px;
 	}
 }
-@media screen and (min-height: 670px) and (max-width: 1000px){
+@media screen and (max-height: 670px) and (max-width: 1000px){
 	
 	.shop-description-text-mobile {
 		font-size: 3.5vw;

@@ -273,6 +273,9 @@ footer div {
 	.main-text:nth-child(3) {
 		font-size: 14px;
 	}
+	.make-order {
+		font-size: 4vw;
+	}
 	.mobile-text {
 		font-size: 3.5vw;
 	}
