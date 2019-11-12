@@ -278,6 +278,10 @@ footer div {
 	.telegram {
 		height: 9.1vw;
 	}
+	.icons-bar {
+		height: 9.9vw;
+		top: 2%;
+	}
 	.mobile-logo {
 		height: 22vw;
 	}

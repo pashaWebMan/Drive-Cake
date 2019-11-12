@@ -350,6 +350,10 @@ footer div {
 	.icons-bar img:not(.telegram) {
 		height: 9.9vw;
 	}
+	.icons-bar {
+		height: 9.9vw;
+		bottom: 1%;
+	}
 	.telegram {
 		height: 9.1vw;
 	}
