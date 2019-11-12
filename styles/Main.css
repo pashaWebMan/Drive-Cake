@@ -177,7 +177,7 @@ footer div {
 		height: 44%;
 		width: 100%;
 		z-index: 999;
-		font-size: 20px;
+		font-size: 4.6vw;
 		background-color: #ffffff;
 		color: #4F2C28;
 	}
@@ -274,9 +274,18 @@ footer div {
 		font-size: 14px;
 	}
 	.mobile-text {
-		font-size: 15px;
+		font-size: 3.5vw;
 	}
 	.contact-info {
 		font-size: 4.5vw;
+	}
+	.icons-bar img:not(.telegram) {
+		height: 9.9vw;
+	}
+	.telegram {
+		height: 9.1vw;
+	}
+	.mobile-logo {
+		height: 22vw;
 	}
 }

@@ -268,3 +268,24 @@ footer div {
 		font-size: 18px;
 	}
 }
+@media screen and (min-height: 670px) and (max-width: 1000px){
+	
+	.icons-bar img:not(.telegram) {
+		height: 9.9vw;
+	}
+	.telegram {
+		height: 9.1vw;
+	}
+	.mobile-logo {
+		height: 22vw;
+	}
+	.main-text {
+		font-size: 3.4vw;
+	}
+	.page-name {
+		font-size: 6.5vw;
+	}
+	.contact-info {
+		font-size: 4.5vw;
+	}
+}
