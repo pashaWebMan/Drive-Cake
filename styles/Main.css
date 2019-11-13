@@ -153,6 +153,7 @@ footer div {
 	main {
 		background: url(../media/background/Main-mobile.jpg);
 		align-items: center;
+		justify-content: center;
 	}
 	main a, main p{
 		margin-left: 0;
