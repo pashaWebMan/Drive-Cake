@@ -172,9 +172,6 @@ footer div {
 		position: absolute;
 		margin-left: 5%;
 	}
-	.burger:focus ~ .mobile-nav{
-		top: 0%;
-	}
 	.mobile-nav {
 		display: flex;
 		flex-direction: column;
@@ -206,9 +203,6 @@ footer div {
 		position: relative;
 		right: -38%;
 		bottom: -8%;
-	}
-	.close-nav-menu:focus ~ .mobile-nav {
-		top: -60%;
 	}
 	.main-text {
 		position: relative;

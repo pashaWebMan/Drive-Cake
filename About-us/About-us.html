@@ -10,7 +10,7 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<button class="burger"><img src="../media/icons/burger.svg" alt=""></button>
+			<button onclick="openMobileNav()" class="burger"><img src="../media/icons/burger.svg" alt=""></button>
 			<img src="../media/logo/logo-text.svg" alt="" class="logo">
 			<img src="../media/logo/logo.svg" class="mobile-logo" alt="">
 			<div class="mobile-nav">
@@ -18,7 +18,7 @@
 				<a href="../Cakes-gallery/Cakes-gallery.html" class="mobile-nav-item">Торти</a>
 				<a href="../Order/Order.html" class="mobile-nav-item">Замовлення</a>
 				<p class="mobile-nav-item">Про нас</p>
-				<img src="../media/icons/close.svg" class="close-nav-menu" alt="">
+				<img src="../media/icons/close.svg" onclick="closeMobileNav()" class="close-nav-menu" alt="">
 			</div>
 			<nav>
 				<a href="../index.html" class="nav-button1 active">Головна</a>
@@ -72,5 +72,6 @@
 			</div>
 		</footer>
 	</div>
+	<script src="scripts/About-us.js"></script>
 </body>
 </html>
