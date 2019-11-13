@@ -335,17 +335,17 @@ footer div {
 }
 @media screen and (max-height: 670px) and (max-width: 1000px){
 	.mobile-nav {
-		font-size: 4.6vw;
+		font-size: 4.3vw;
 	}
 	.shop-description-text-mobile {
-		font-size: 3.5vw;
+		font-size: 3.2vw;
 	}
 	.cook-text-mobile {
 		width: 35.2vw;
-		font-size: 3.5vw;
+		font-size: 3.2vw;
 	}
 	h2 {
-		font-size: 5.4vw;
+		font-size: 5.1vw;
 	}
 	.icons-bar img:not(.telegram) {
 		height: 9.9vw;
@@ -361,6 +361,6 @@ footer div {
 		height: 22vw;
 	}
 	.contact-info {
-		font-size: 4.5vw;
+		font-size: 4.2vw;
 	}
 }
