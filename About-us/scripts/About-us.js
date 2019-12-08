@@ -8,6 +8,5 @@ function closeMobileNav() {
   mobileNav[0].style.top = "-60%"
 }
 
-if (window.screen.orientation.type == 'portrait-primary') {
-	window.screen.orientation.lock('portrait-primary')
-};
+let currentScreenOrientation = window.screen.orientation.type;
+window.screen.orientation.lock(currentScreenOrientation);
