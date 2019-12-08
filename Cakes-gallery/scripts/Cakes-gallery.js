@@ -75,3 +75,5 @@ function openMobileNav() {
 function closeMobileNav() {
   mobileNav[0].style.top = "-60%"
 }
+
+screen.orientation.lock('landscape');
